@@ -1,0 +1,32 @@
+.banner{
+    padding: 27px 32px 38px 27px;
+    background-color: #000000;
+    opacity: 0.52;
+    color: #FFFFFF;
+    text-align: end;
+
+    .banner__name{
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .banner__link{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding-top: 10px;
+        gap: 20px;
+
+        &__more{
+            font-size: 14px;
+            line-height: 19px;
+            cursor: pointer;
+        }
+
+        svg{
+            cursor: pointer;
+        }
+    }
+   
+
+}

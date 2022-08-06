@@ -1,0 +1,53 @@
+.firstScreen {
+    height: 100vh;
+    background: url('../../assets/bg-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    .mainInfo{
+        color: #FFFFFF;
+        padding-top: 120px;
+        .specialization{
+            h2{
+                max-width: 364px;
+                font-style: 700;
+                font-size: 64px;
+                line-height: 70px;
+            }
+            p{
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 49px;
+                padding-top: 12px;
+                padding-bottom: 50px;
+
+            }
+        }
+
+
+        
+    }
+
+    .moreInfoBlock{
+        display: flex;
+        justify-content: space-between;
+
+        &__socialBlock{
+            display: flex;
+            align-self: flex-end;
+            gap: 35px;
+            color: #FFFFFF;
+            svg{
+                cursor: pointer;
+                transition: 0.5s;
+            }
+
+            svg:hover {
+                color: #CFCFCF;
+                transform: scale(1.5);
+            }
+        }
+            
+    }
+}

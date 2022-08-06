@@ -1,0 +1,60 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    color: #FFFFFF;
+
+    .header__nav{
+        align-self: center;
+        
+        .header__nav__list{
+            display: flex;
+            align-items: center;
+            gap: 130px;
+            list-style: none;
+            cursor: pointer;
+            
+        }   
+        
+        
+        .header__nav__item ::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 1.5px;
+            background: #FFFFFF;
+            transition: width .5s;
+            
+        }
+    
+        .header__nav__item :hover::after {
+            width: 100%;
+        }
+    
+
+
+
+    }
+
+    .header__lang{
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        p, svg{
+            cursor: pointer;
+        }
+
+        .header__lang__text::after {
+            content: '';
+            display: block;
+            width: 0;
+            height: 1.5px;
+            background: #FFFFFF;
+            transition: width .3s;
+        }
+    
+        .header__lang__text:hover::after {
+            width: 100%;
+        }
+    }
+}
