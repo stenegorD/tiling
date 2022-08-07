@@ -1,13 +1,13 @@
 import './App.css';
-import FirstScreen from './components/MainSection/MainSection';
 import Header from './components/Header/Header';
+import HomePage from './pages/HomePage/HomePage';
 
 function App() {
   return (
     <div className="App">
       {/* <Header/> */}
       
-      <FirstScreen/>
+      <HomePage/>
       
       
     </div>

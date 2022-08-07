@@ -1,0 +1,109 @@
+.aboutUsSection__bg__title{
+    background-image: url('../../assets/bgTitle/ABOUT.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+// .aboutUsSection__bg__title::before{
+//     content: '';
+//     display: block;
+//     height: 1px;
+//     width: 86px;
+//     background: #0000004D;
+//     transform: rotate(90deg);
+//     position: absolute;
+//     right: calc(100%/2 - 43px);
+//     top: -9px;
+// }
+
+.aboutUsSection__title{
+    font-weight: bold;
+    font-size: 36px;
+    // line-height: 42px;
+    color: #181818;
+    position: relative;
+    
+}
+
+.aboutUsSection__title::before{
+    content: '';
+    display: block;
+    height: 1px;
+    width: 88px;
+    background: #3333334D;
+    position: absolute;
+    top: calc(100%/2 - 0.5px);
+    left: -166px;
+}
+
+.aboutUsSection{
+    padding-bottom: 175px;
+    &__image{
+        
+        img{
+            width: 446px;
+            object-fit: cover;
+        }
+    }
+
+}
+
+.aboutUsSection__info{
+    display: flex;
+    justify-content: space-between;
+    gap: 160px;
+    padding-bottom: 100px;
+
+    .aboutUsSection__philosophy{
+            align-self: center;
+        h4{
+            color: #181818;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 23px;
+            padding-bottom: 24px;
+        }
+
+        p{
+            color: #2F3838;
+            font-weight: light;
+            font-size: 16px;
+            line-height: 26px;
+        }
+    }
+}
+
+.aboutUsSection__statistics{
+    display: flex;
+    justify-content: space-between;
+    gap: 160px;
+    
+    &__info{
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+        
+        span{
+            color: #181818;
+            font-style: 600;
+            font-size: 64px;
+            line-height: 87px;
+        }
+
+        p{
+            color: #2F3838;
+            font-style: bold;
+            font-size: 16px;
+            line-height: 26px;
+        }
+    }
+
+}

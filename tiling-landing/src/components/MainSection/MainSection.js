@@ -6,9 +6,9 @@ import {FaTelegramPlane, FaViber} from 'react-icons/fa'
 import Button from '../Button/Button'
 import Baner from '../Baner/Baner'
 
-function FirstScreen() {
+function MainSection() {
   return (
-    <div className={styles.firstScreen}>
+    <div className={styles.mainSection}>
         
         <div className='container'>
         <Header/>
@@ -41,4 +41,4 @@ function FirstScreen() {
   )
 }
 
-export default FirstScreen
+export default MainSection
