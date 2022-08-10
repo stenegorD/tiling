@@ -44,7 +44,7 @@
 }
 
 .aboutUsSection{
-    padding-bottom: 175px;
+    padding-bottom: 245px;
     &__image{
         
         img{
@@ -83,27 +83,35 @@
 .aboutUsSection__statistics{
     display: flex;
     justify-content: space-between;
-    gap: 160px;
+    align-items: center;
+    gap: 310px;
     
     &__info{
         display: flex;
-        flex-wrap: wrap;
-        
-        
-        
-        span{
-            color: #181818;
-            font-style: 600;
-            font-size: 64px;
-            line-height: 87px;
+        flex-direction: column;
+        gap: 40px;
+
+        &__block{
+            display: flex;
+            justify-content: space-between;
+            gap: 140px;
+
+            span{
+                color: #181818;
+                font-style: 600;
+                font-size: 64px;
+                line-height: 87px;
+            }
+    
+            p{
+                color: #2F3838;
+                font-style: bold;
+                font-size: 16px;
+                line-height: 26px;
+            }
         }
 
-        p{
-            color: #2F3838;
-            font-style: bold;
-            font-size: 16px;
-            line-height: 26px;
-        }
+        
     }
 
 }

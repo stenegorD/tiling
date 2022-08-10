@@ -1,0 +1,44 @@
+.projectSection__bg__title{
+    background-image: url('../../assets/bgTitle/PROJECTs.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+
+    .projectSection__title{
+        font-weight: 700;
+    font-size: 36px;
+    // line-height: 42px;
+    color: #181818;
+    position: relative;
+    }
+    .projectSection__title::before{
+        content: '';
+        display: block;
+        height: 1px;
+        width: 88px;
+        background: #3333334D;
+        position: absolute;
+        top: calc(100%/2 - 0.5px);
+        left: -166px;
+    }
+}
+
+.projectSection__text{
+    max-width: 488px;
+    font-weight: light;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.projectSection__button{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 158px;
+}

@@ -1,0 +1,42 @@
+.ourServicesSection{
+    background-color: #181818;
+    padding-top: 80px;
+    &__bg__title{
+        background-image: url('../../assets/bgTitle/SERVICES.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+        
+        margin-bottom: 60px;
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+    
+        .ourServicesSection__title{
+            font-weight: 700;
+        font-size: 36px;
+        // line-height: 42px;
+        color: #FFFFFF;
+        position: relative;
+        }
+        .ourServicesSection__title::before{
+            content: '';
+            display: block;
+            height: 1px;
+            width: 88px;
+            background: #FFFFFF4D;
+            position: absolute;
+            top: calc(100%/2 - 0.5px);
+            left: -166px;
+        }
+    }
+
+    &__button{
+       display: flex;
+       justify-content: center;
+       padding-bottom: 158px;
+       padding-top: 105px;
+    }
+}
+

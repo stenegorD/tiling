@@ -5,7 +5,7 @@ import styles from './AboutUsSection.module.scss'
 
 function AboutUsSection() {
   return (
-    <div className='container'>
+    <div className='container containerLine-grey'>
         <div className={styles.aboutUsSection__bg__title}>
             <h3 className={styles.aboutUsSection__title}>Про нас</h3>
         </div>
@@ -25,6 +25,7 @@ function AboutUsSection() {
         </div>
             <div className={styles.aboutUsSection__statistics}>
                 <div className={styles.aboutUsSection__statistics__info}>
+                    <div className={styles.aboutUsSection__statistics__info__block}>
                     <div>
                         <span>16+</span>
                         <p>років на ринку</p>
@@ -33,6 +34,9 @@ function AboutUsSection() {
                         <span>225</span>
                         <p>позитивних відгуків</p>
                     </div>
+                    </div>
+                    
+                    <div className={styles.aboutUsSection__statistics__info__block}>
                     <div>
                         <span>90+</span>
                         <p>завершиних проектів</p>
@@ -41,6 +45,8 @@ function AboutUsSection() {
                         <span>21+</span>
                         <p>партнерів компаній</p>
                     </div>
+                    </div>
+                    
 
                 </div>
 
