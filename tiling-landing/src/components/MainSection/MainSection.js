@@ -5,6 +5,7 @@ import {AiFillInstagram, AiFillFacebook} from 'react-icons/ai'
 import {FaTelegramPlane, FaViber} from 'react-icons/fa'
 import Button from '../Button/Button'
 import Baner from '../Baner/Baner'
+import SocialIcons from '../SocialIcons/SocialIcons'
 
 function MainSection() {
   return (
@@ -26,12 +27,7 @@ function MainSection() {
                 <Button title='Замовити проект'/>
             </div>
             <div className={styles.moreInfoBlock}>
-                <div className={styles.moreInfoBlock__socialBlock}>
-                    <AiFillInstagram size={"20px"} />
-                    <AiFillFacebook size={"20px"}/>
-                    <FaTelegramPlane size={"20px"}/>
-                    <FaViber size={"20px"}/>
-                </div>
+                <SocialIcons socialTypeWhite/>
                 <div className={styles.moreInfoBlock__projectDetails}>
                     <Baner/>
                 </div>

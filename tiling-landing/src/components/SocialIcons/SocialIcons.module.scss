@@ -1,0 +1,26 @@
+
+    .socialIcons{
+        display: flex;
+        align-self: flex-end;
+        gap: 35px;
+
+        svg{
+            cursor: pointer;
+            transition: 0.5s;
+        }
+
+        svg:hover {
+            color: #CFCFCF;
+            transform: scale(1.5);
+        }
+    }
+        
+    .socialIcons_white{
+        color: #FFFFFF;
+    }
+
+    .socialIcons_grey{
+        color: #969CA3;
+
+    }
+

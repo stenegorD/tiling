@@ -35,6 +35,21 @@
     font-size: 16px;
     line-height: 26px;
 }
+.projectSection{
+    padding-top: 90px;
+    &__image{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        img{
+            width: 590px;
+            height: 418px;
+        }
+
+    }
+}
+
+
 
 .projectSection__button{
     display: flex;

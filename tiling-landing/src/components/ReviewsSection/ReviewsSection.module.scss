@@ -1,0 +1,95 @@
+.reviewsSection{
+    background-color: #181818;
+    padding-top: 80px;
+
+    &__bg__title{
+        background-image: url('../../assets/bgTitle/REVIEWS.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 200px;
+        margin-top: 80px;
+        margin-bottom: 60px;
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+
+    }
+
+    &__title{
+        font-weight: 700;
+        font-size: 36px;
+    // line-height: 42px;
+        color: #FFFFFF;
+        position: relative;
+    }
+
+    &__title::before{
+        content: '';
+        display: block;
+        height: 1px;
+        width: 88px;
+        background: #FFFFFF4D;
+        position: absolute;
+        top: calc(100%/2 - 0.5px);
+        left: -166px;
+    }
+
+    &__commentBlock{
+        display: flex;
+        justify-content: center;
+        gap: 81px;
+        color: #FFFFFF;
+        padding-bottom: 140px;
+
+        .commentBlock__clientInfo{
+            .clientInfo__name{
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 23px;
+            }
+            .clientInfo__position{
+                padding-top: 12px;
+                font-size: 14px;
+                line-height: 16px;
+                color: #6C757D;
+
+            }
+        }
+
+        .commentBlock__comment{
+            font-weight: light;
+            font-size: 16px;
+            line-height: 26px;
+            padding-top: 89px;
+            max-width: 497px;
+            display: flex;
+            gap: 23px;
+                &__quotes{
+                    display: flex;
+                    padding-top: 5px;
+                }
+                
+        }
+
+        .commentBlock__clientPhoto{
+            img{
+                width: 418px;
+                height: 580px;
+            }
+
+            &__arrowDrop{
+                display: flex;
+                justify-content: flex-end;
+                gap: 15px;
+                padding-top: 20px;
+                svg{
+                    cursor: pointer;
+                }
+            }
+            
+        }
+    }
+
+}
+
